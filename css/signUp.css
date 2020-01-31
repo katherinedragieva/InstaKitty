@@ -1,0 +1,124 @@
+body{
+    background-color:#f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+form{
+    color:#666;  
+}
+#logIn, #DateOfBirthText, #checkBtn, .innerBirthData select{
+    color: #4d4d4d;
+    font-size: 17px;
+    text-align: center;
+}
+
+form{
+    background-color: rgba(255,255,255, 1);
+    padding: 35px;
+    padding:10px;
+    display: block;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+}
+form input{
+    border:none;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    font-size:17px;
+    color:black;
+}
+.usernameNpass{
+    width: 93%;
+    padding: 14px;
+}
+
+form input:focus{
+    /* color: black; */
+    outline-width: 0px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-radius: 15px;
+}
+select{
+    border:none;
+    outline:0;
+    line-height: 1em;
+    height: 43px;
+    width:138px;
+    border-bottom:1px solid #999;
+}
+select:focus{
+    border-radius: 15px;
+    outline-width: 0;
+    border-bottom:1px solid black;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    color:black;
+    background-color: transparent;
+}
+form div {
+    margin:50px;
+}
+.genderOpt{
+    margin-top:15px;
+    margin-left:3px;
+}
+/* input[type="radio"]:focus {
+    color:black;
+} */
+button{
+    width: 100%;
+    color:white;
+    background-color:black;
+    padding:16px;
+    font-size:16px;
+}
+#fOpt{
+    margin-left:55px;
+}
+#birthData{
+    margin: 0;
+    margin-left:37px;
+    display: flex;
+    padding: 0;
+}
+#birthData input{
+    padding: 10px;
+    
+    width: 70px;
+}
+.innerBirthData select{
+    font-size:15px;
+}
+.innerBirthData{
+    margin-top:15px;
+    padding:15px;
+}
+#DateOfBirthText{
+    font-size: 16px;
+    margin-left:54px;
+    color:black;
+}
+form img{
+    position: relative;
+    top:41px;
+    left: 10px;
+}
+#signUp{
+    text-align: center;
+    padding:40px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#signUp a{
+    font-weight: bold;
+    color:#000;
+    margin-left:5px;
+}
+p,span{
+    color:black;
+}

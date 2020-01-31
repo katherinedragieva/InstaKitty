@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="icon" href="images/cat-profile-64.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/newsFeed.css">
+    <link rel="stylesheet" href="css/explorePage.css">
+    <link rel="stylesheet" href="css/activityFeed.css">
+    <title>Explore</title>
+</head>
+
+<body>
+    <header id="mainHeader">
+        <nav>
+            <a href="newsFeed.html" class="navAtributes">
+                <img src="images/cat-head-64.png" alt="cat" id="cat">
+            </a>
+            <a href="newsFeed.html" class="navAtributes">
+                <h1 id="logo"> instаKitty </h1>
+            </a>
+            <input type="text" placeholder="Search" id="searchInput" class="navAtributes">
+            <a href="explorePage.html" id="compass" class="navAtributes">
+                <img src="images/compass-80.png" alt="Compass" class="nav-img">
+            </a>
+            <img src="images/cat-footprint-100.png" alt="toeBeans" class="nav-img navAtributes">
+            <a href="profilePage.html" class="navAtributes">
+                <img src="images/cat-profile-64.png" alt="cat profile" class="nav-img" id="catProfile">
+            </a>
+        </nav>
+    </header>
+
+    <h3 id="exploreHeader"> Explore </h3>
+
+    <article class="picturesContainer">
+        <img src="images/blue-eyes-cat.jpg" alt="cat and mouse" class="postImages">
+        <img src="images/catto_model.jpg" alt="kitty" class="postImages">
+        <img src="images/suki.jpg" alt="kitty" class="postImages">
+    </article>
+
+    <article class="picturesContainer">
+        <img src="images/tigers.jpg" alt="cat and mouse" class="postImages">
+        <img src="images/dragon.jpg" alt="cat and mouse" class="postImages">
+        <img src="images/cut.jpg" alt="cat and mouse" class="postImages">
+    </article>
+
+    <article class="picturesContainer">
+        <img src="images/threesome.jpg" alt="cat and mouse" class="postImages">
+        <img src="images/art-cat.jpg" alt="cat and mouse" class="postImages">
+        <img src="images/curious-cat.jpg" alt="cat and mouse" class="postImages">
+    </article>
+
+
+
+    <div id="imageModal">
+        <div id="exitPage">
+            <a href="#" class="close"></a>
+        </div>
+
+        <div id="profileContent">
+            <header id="userInfo">
+                <img src="images/cat-profile-48.png" alt="cat profile pic" id="userPic">
+                <span id="userName"> whisPurr </span>
+                <span id="follow"> Follow </span>
+            </header>
+
+
+
+            <main id="commentSect">
+                <ul id="commentImages">
+                    <li class="listImg">
+                        <img src="images/karla/profilePic.png" class="commentImg">
+                    </li>
+                    <li class="listImg">
+                        <img src="images/circle-cropped (1).png" class="commentImg">
+                    </li>
+                    <li class="listImg">
+                        <img src="images/profPic.png" class="commentImg">
+                    </li>
+                    <li class="listImg">
+                        <img src="images/cropped.png" class="commentImg" id="minePic">
+                    </li>
+                </ul>
+                <ul id="ulComments">
+                    <li class="comments">
+                        <span> Where did Karen take you?</span>
+                    </li>
+
+                    <li class="comments">
+                        <span> What is that? Water???????</span>
+                    </li>
+
+                    <li class="comments">
+                        <span> You look amaizing! </span>
+                    </li>
+
+                    <li class="comments">
+                        <span id="mineQuote"></span>
+                    </li>
+                </ul>
+
+                <!-- <li class="listImg">
+
+                < <div id="hr"> </div> -->
+
+
+            </main>
+            <footer>
+                <div id="footerDiv">
+                    <input placeholder="Write your comment" id="commentHolder"></input>
+                    <button type="submit" id="postBtn">Post</button>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+
+
+
+    <!-- Activity  -->
+    <div class="activityContainer">
+        <div class="arrow-up"></div>
+        <h5> Activity </h5>
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+
+        <div class="postContainer">
+            <span class="userNameText"> whisPurr pawed your post </span>
+            <img src="images/karla/250x333.jpg" class="activityImages">
+        </div>
+    </div>
+
+    <script src="js/explorePage.js"> </script>
+    <script>
+        removeFocus();
+        imagesOnFocus();
+        postComment();
+    </script>
+
+    <script src="js/activity.js"> </script>
+
+    <script>
+        activityShowHide();
+    </script>
+</body>
+
+</html>

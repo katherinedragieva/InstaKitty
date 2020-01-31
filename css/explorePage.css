@@ -1,0 +1,172 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#exploreHeader{
+    font-weight: normal;
+    color: #0d0d0d;
+    margin-left: 15%;
+    width:10%;
+    margin-top:10%;
+}
+.postImages{
+    height: 330px;
+    padding:20px;
+    width: 275px;
+}
+.picturesContainer{
+    display:flex;
+    margin-top:2%;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+}
+.onFocusImage{
+    width: 450px;
+    height: 550px;
+}
+#imageModal{
+    display: none;
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    top:0;
+    width: 100%;
+    height:370%;
+}
+#imageModal .postImages{
+    width:500px;
+    position: fixed;
+    top:5%;
+    left:16%;   
+    height: 510px;
+}
+#profileContent{
+    width:28%;
+    margin-left: 57%;
+    background-color: #f2f2f2 ;
+    height: 510px;
+}
+#userInfo{
+    margin-top:55px;
+    height: 15%;
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+}
+#userName{
+    font-size:16px;
+    margin-left: 15px;
+    margin-top:30px;
+}
+#userInfo #userPic{
+    width: 59px;
+    height: 60px;
+}
+#follow{
+    cursor: pointer;
+    margin-left:120px;
+    margin-top:30px;
+}
+#commentSect{
+    display: flex;
+}
+#commentSect .commentImg{
+    width:48px;
+    height: 48px;
+}
+#commentSect ul{
+    height: 20%;
+    list-style: none;
+    margin:0;
+    padding:0;
+    margin-top:20px;
+}
+#commentSect .listImg{
+    display: block;
+    margin-left:42%;
+    margin-top:10%;
+}
+#minePic{
+    width: 10px;
+    height: 10px;
+    display:none;
+}
+
+
+/* Comment Section */
+/* #hr{
+    border-top: 1px solid #cccccc;
+    
+} */
+.comments{
+    font-size:14px;
+    width: 120%;
+    padding:20px;
+    margin-left:20px;
+} 
+#commentHolder{
+    outline-width: 0;
+    border:0;
+    width: 66%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:  #e6e6e6;
+    color: black;
+}
+#footerDiv{
+    margin-top:35%;
+    margin-left:20px;
+}
+#postBtn{
+    margin-left: 25px;
+    border: 0;
+    background: transparent;
+    outline-width: 0;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+/* Exit Button */
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    color:black;
+    width: 2px;
+    background-color: white;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
+
+  /* RESPOSIVE DESIGN */
+
+
+  @media screen and (max-width: 900px){
+   #exploreHeader{
+       margin-left:5%;
+   }
+}
+/* @media screen and (min-width: 1200px){
+    
+    #exploreHeader{
+        margin-left:5%;
+    }
+    
+ } */

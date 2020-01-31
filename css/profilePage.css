@@ -1,0 +1,97 @@
+.profilePicContainer{
+    width:30%;
+}
+
+#container{
+    margin-left:15%;
+    margin-right: auto;
+    margin-top:80px;
+    width: 68%;
+    border-bottom:1px solid #808080;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#container header{
+    display: flex;
+}
+#profilePic{
+    width: 21%;
+}
+li{
+    padding: 26px;
+    font-size:20px;
+}
+h3{
+    width:130px;
+    font-size:21px;
+    margin-left:23px;
+    font-weight: normal;
+}
+#followersSect{
+    display: flex;
+    list-style: none;
+}
+#profileInfo{
+    width: 65%;
+    height: 96px;
+    text-align: end;
+    margin-left:32px;
+    margin-top:30px;
+}
+/* PICS */
+.picturesContainer1{
+    display: block;
+    margin-left:10%;
+    margin-top:10%;
+}
+.picturesContainer2{
+    display: block;
+    margin-left:10%;
+}
+.catPics{
+    height: 365px;
+    padding:20px;
+    width:300px;
+}
+#toeBeans{
+    cursor: pointer;
+}
+/* ACTIVITY FEED
+.activityContainer{
+    display: none;
+    position:sticky;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0);
+    bottom:33%;
+    margin-left:71%;
+    width: 27%;
+    height: 355px;
+    overflow:scroll;
+}
+.arrow-up{
+    width: 0; 
+    height: 5px; 
+    margin-left:56%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+}
+h5{
+    width: 90%;
+    margin-left:10px;
+    border-bottom:1px solid #cccccc;
+    font-size: 15px;
+}
+.postImages{
+    width: 50px;
+    height: 50px;
+}
+.postContainer *{
+    padding: 5px;
+}
+.userNameText{
+    position: relative;
+    bottom:25px;
+    margin-left: 10px;
+    padding: 5px;
+} */

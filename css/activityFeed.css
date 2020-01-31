@@ -1,0 +1,42 @@
+/* ACTIVITY FEED */
+.activityContainer{
+    display: none;
+    position:sticky;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0);
+    bottom:33%;
+    margin-left:71%;
+    width: 27%;
+    height: 355px;
+    overflow:scroll;
+}
+#toeBeans{
+    cursor: pointer;
+}
+.arrow-up{
+    width: 0; 
+    height: 5px; 
+    margin-left:56%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+}
+h5{
+    width: 90%;
+    margin-left:10px;
+    border-bottom:1px solid #cccccc;
+    font-size: 15px;
+}
+.activityImages{
+    width: 50px;
+    height: 50px;
+}
+.postContainer *{
+    padding: 5px;
+}
+.userNameText{
+    position: relative;
+    bottom:25px;
+    margin-left: 10px;
+    padding: 5px;
+}

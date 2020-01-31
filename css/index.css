@@ -1,0 +1,184 @@
+body{
+    background-color:#f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    margin-top: 10%;
+}
+#collageContainer{
+    width: 40%;
+}
+#collage{
+    width: 100%;
+    margin-left: 60px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* LOGIN CSS STARTS HERE */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+form{
+    background-color: rgba(255,255,255, 1);
+    margin-left:146px;
+    width: 41%;
+    height: 510px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.5);
+}
+form input{
+    padding: 14px;
+    border:none;
+    border-bottom: 1px solid #999;
+    color: #8c8c8c;
+    text-align: center;
+}
+.usernameNpass {
+    width: 93%;  
+    color:black;
+    font-size: 18px;  
+}
+.formDivs{
+    margin:65px;
+}
+button{
+    font-size: 16px;
+}
+input:focus{
+    outline-width: 0px;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-radius: 15px;
+}
+.icons{
+    position: relative;
+    top: 39px;
+    left:10px;
+}
+#logIn{
+    margin-top:35px;
+    text-align: center;
+}
+form span{
+    margin:54px;
+}
+button{
+    width: 100%;
+    background-color:black;
+    color:white;
+
+    padding:16px;
+}
+#signInBtn{
+    text-decoration: none;
+    color:white;
+}
+#signUp{
+    text-align: center;
+    padding:40px;
+    margin-left: 46%;
+}
+#signUp a{
+    font-size: 16px;
+    color:#000;
+    font-weight: bold;
+}
+
+
+/* Resposive Design */
+@media screen and (min-width: 1500px){
+    #collageContainer{
+        width: 35%;
+        margin-left:80px;
+    }
+    main {
+        margin-top: 8%;
+    }
+    .formDivs{
+        margin:15px;
+    }
+    form{
+        width:35%;
+        height: 555px;
+    }
+    #signUp{
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    form{
+        width: 41%;
+        height: 405px;    
+    }
+    #collage{
+        height: 405px;
+    }
+    .formDivs{
+        margin: 35px;
+    }
+    #signUp{
+        margin-left:42%;
+    }
+}
+@media screen and (max-width: 999px){
+    main {
+        margin-top: 8%;
+    }
+    #collage{
+        height: 405px;
+    }
+    .formDivs{
+        margin:36px
+    }
+    form{
+        width:40%;
+        height: 405px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    form{
+        margin-left: 107px;
+        width: 41%;
+        height: 405px;    
+    }
+    #collage{
+        height: 405px;
+    }
+    .formDivs{
+        margin: 20px;
+    }
+    #signUp{
+        margin-left:0;
+    }
+}
+
+@media screen and (max-width: 479px){
+    main{
+        margin-top: 8%;
+        display: inline-block;
+    }
+    #collage{
+        width: 150%;
+        margin-left:0;
+    }
+    #collageContainer{
+        width: 45%;
+        margin-left: 15%;
+    }
+    .formDivs{
+        padding: 10px;
+    }
+    form{
+        width:70%;
+        height: 405px;
+        margin-left:15%; 
+    }
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="icon" href="images/cat-profile-64.png" type="image/gif" sizes="16x16">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <div id="logIn"> Sign up </div>
+
+            <div>
+                <img src="images/cat-head-24.png">
+                <input type="text" name="username" placeholder="Create your username..." class="usernameNpass">
+            </div>
+
+            <div>
+                <img src="images/password-24.png">
+                <input type="password" name="password" minlength="8" required class="usernameNpass"
+                    placeholder="Enter your password...">
+            </div>
+            <div>
+                <img src="images/mail-24.png" alt="email">
+                <input type="email" name="email" placeholder="Confirm email" class="usernameNpass">
+            </div>
+            <div>
+                <p> Please select your gender:</p>
+                <input type="radio" name="gender" value="male" class="genderOpt">
+                Male
+                <input type="radio" name="gender" value="male" class="genderOpt" id="fOpt"> Female
+            </div>
+            <span id="DateOfBirthText">Date of birth</span>
+
+            <div id="birthData">
+
+                <span class="innerBirthData">
+                    <input type="number" placeholder="Day">
+                </span>
+
+                <span class="innerBirthData">
+                    <select>
+                        <optgroup>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </optgroup>
+                    </select>
+                </span>
+
+                <span class="innerBirthData">
+                    <input type="number" placeholder="Year">
+                </span>
+
+            </div>
+
+
+            <div id="tems">
+                <input type="checkbox" id="checkBtn">
+                <span>I agree to the InstaKitty terms & conditions and Privacy Policy.</span>
+            </div>
+            <div>
+                <button type="submit">
+                    <a href="newsFeed.html">
+                        Sign up
+                    </a>
+                </button>
+            </div>
+        </form>
+
+
+        <div id="signUp"> Already have an account?
+            <a href="index.html"> Log in </a>
+        </div>
+    </main>
+</body>
+
+</html>
