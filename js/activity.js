@@ -1,11 +1,13 @@
 function activityShowHide() {
+    let clicks = 0;
     $('#toeBeans').on('click',() => {
-        let clicks = $(this).data('clicks');
-        if (clicks) {
-            $('.activityContainer').show();
+        
+        if (clicks % 2 ==0){
+            $('.activityContainer').css("display", "block");
+            $('.activityContainer').slideDown(500);
         } else {
             $('.activityContainer').hide();
         }
-        $(this).data("clicks", !clicks);
+        clicks+=1;
     });
 }

@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -5,7 +9,6 @@ body{
     font-weight: normal;
     color: #0d0d0d;
     margin-left: 15%;
-    width:10%;
     margin-top:10%;
 }
 .postImages{
@@ -20,34 +23,40 @@ body{
     align-items: center;
     justify-content: center;
 }
-.onFocusImage{
-    width: 450px;
-    height: 550px;
-}
-#imageModal{
+
+#modal{
     display: none;
-    z-index: 1;
     position: fixed;
+    z-index: 1;
     background-color: rgba(0,0,0,.5);
     top:0;
+    left:0;
+    height: 100%;
     width: 100%;
-    height:370%;
+    overflow: auto;
+}
+#modal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:85px;
+
 }
 #imageModal .postImages{
     width:500px;
-    position: fixed;
-    top:5%;
-    left:16%;   
     height: 510px;
 }
+#imageModal{
+    width: 520px;
+}
+
 #profileContent{
-    width:28%;
-    margin-left: 57%;
+    width:29%;
     background-color: #f2f2f2 ;
     height: 510px;
 }
 #userInfo{
-    margin-top:55px;
+    margin-top:15px;
     height: 15%;
     display: flex;
     border-bottom: 1px solid #cccccc;
@@ -85,7 +94,7 @@ body{
     margin-left:42%;
     margin-top:10%;
 }
-#minePic{
+#myProfilePic{
     width: 10px;
     height: 10px;
     display:none;
@@ -93,10 +102,7 @@ body{
 
 
 /* Comment Section */
-/* #hr{
-    border-top: 1px solid #cccccc;
-    
-} */
+
 .comments{
     font-size:14px;
     width: 120%;
@@ -113,7 +119,7 @@ body{
     color: black;
 }
 #footerDiv{
-    margin-top:35%;
+    margin-top:30%;
     margin-left:20px;
 }
 #postBtn{
@@ -125,7 +131,8 @@ body{
     font-weight: normal;
     cursor: pointer;
 }
-/* Exit Button */
+
+/* Exit Button of Image Modal*/
 .close {
     position: absolute;
     right: 32px;
@@ -153,20 +160,3 @@ body{
   .close:after {
     transform: rotate(-45deg);
   }
-  
-
-  /* RESPOSIVE DESIGN */
-
-
-  @media screen and (max-width: 900px){
-   #exploreHeader{
-       margin-left:5%;
-   }
-}
-/* @media screen and (min-width: 1200px){
-    
-    #exploreHeader{
-        margin-left:5%;
-    }
-    
- } */
